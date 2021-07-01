@@ -1,0 +1,41 @@
+{
+    "Warrior" : [
+        {
+            "title": "Aedam, Knight-Shifter",
+            "imageName": "aedam.png",
+            "power": 4,
+            "health": 3,
+            "detailText": "Draw a Fatigue Card. Deal its damage to all other minions.",
+            "triggers": ["Battlecry", "Deathrattle"],
+            "flavorText": "Howdy, y'all."
+        },
+        {
+            "title": "titlegoesHere",
+            "imageName": "nameOfTheFile.whatever",
+            "power": 9001,
+            "health": 8,
+            "detailText": "I do stuff",
+            "triggers": ["Invest", "Battlecry", "Deathrattle", "etc"],
+            "flavorText": "Anything. Or leave it empty (just the quotes)"
+        }
+    ],
+    "Mage" : [
+        {
+            "title": "titlegoesHere",
+            "imageName": "nameOfTheFile.whatever",
+            "power": 9001,
+            "health": 8,
+            "detailText": "I do stuff",
+            "triggers": ["Invest", "Battlecry", "Deathrattle", "etc"],
+            "flavorText": "Anything. Or leave it empty (just the quotes)"
+        }
+    ],
+    "Priest" : [],
+    "Rogue" : [],
+    "Hunter" : [],
+    "Druid" : [],
+    "Paladin" : [],
+    "Shaman" : [],
+    "Demon Hunter" : [],
+    "Warlock" : []
+}

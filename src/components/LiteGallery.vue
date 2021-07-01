@@ -5,7 +5,7 @@
     :label="name"
     expand-icon-class="text-white"
   >
-    
+
   </q-expansion-item>
 </template>
 
