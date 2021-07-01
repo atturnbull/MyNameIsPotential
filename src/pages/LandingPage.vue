@@ -1,24 +1,24 @@
 <template>
   <q-page>
     <q-dialog v-model="showDetail" >
-      <q-card style="height: 300px; width: 350px;">
+      <q-card style="height: 400px; width: 400px;">
         <div class="bg-blandground">
           <div class="row justify-around items-center q-ma-md">
             <q-btn class=" bg-primary text-white" style="height: 25px;" label="<" @click="previousDetail" />
-              <q-card v-if="activeExplanation == 0" class="flex flex-center row text-wrap buzzword-nogrow q-pa-md">
-                <strong>INVESTMENT</strong> OPPORTUNITIES!
-              </q-card>
-              <q-card v-if="activeExplanation == 1" class="flex flex-center row text-wrap buzzword-nogrow ">
-                <span><strong>CONTINUOUS</strong> INTEREST!</span>
-              </q-card>
-              <q-card v-if="activeExplanation == 2" class="flex flex-center row text-wrap buzzword-nogrow">
-                <strong>PROFESSIONAL</strong> GROWTH SYNERGY!
-              </q-card>
-              <q-card v-if="activeExplanation == 3" class="flex flex-center row text-wrap buzzword-nogrow q-pa-md">
+              <q-card v-if="activeExplanation == 0" class="flex flex-center row text-wrap buzzword-nogrow" >
                 <strong>ITEMIZED</strong> REWARD STRUCTURE!
               </q-card>
-              <q-card v-if="activeExplanation == 4" class="flex flex-center row text-wrap buzzword-nogrow q-pa-md">
+              <q-card v-else-if="activeExplanation == 1" class="flex flex-center row text-wrap buzzword-nogrow" >
                 <strong>INTEGRATION</strong> AND ACQUISITION!
+              </q-card>
+              <q-card v-else-if="activeExplanation == 2" class="flex flex-center row text-wrap buzzword-nogrow" >
+                <span><strong>CATEGORIZING</strong> PIPE-LINE!</span>
+              </q-card>
+              <q-card v-else-if="activeExplanation == 3" class="flex flex-center row text-wrap buzzword-nogrow" >
+                <strong>INVESTMENT</strong> OPPORTUNITIES!
+              </q-card>
+              <q-card v-else-if="activeExplanation == 4" class="flex flex-center row text-wrap buzzword-nogrow" >
+                <strong>PROFESSIONAL</strong> GROWTH SYNERGY!
               </q-card>
             <q-btn class="bg-primary text-white" style="height: 25px;" label=">" @click="nextDetail" />
           </div>
@@ -71,20 +71,20 @@
           <q-card-section class="flex flex-between column col-12 text-center">
             <div class="text-italic text-bold pop-text">All new buzzwords!</div>
             <q-card-section class="flex flex-center row">
-              <q-card class="flex flex-center row text-wrap buzzword" clickable @click="activeExplanation = 0; showDetail = true;">
-                <strong>INVESTMENT</strong> OPPORTUNITIES!
-              </q-card>
-              <q-card class="flex flex-center row text-wrap buzzword" @click="activeExplanation = 1; showDetail = true;">
-                <span><strong>CONTINUOUS</strong> INTEREST!</span>
-              </q-card>
-              <q-card class="flex flex-center row text-wrap buzzword" @click="activeExplanation = 2; showDetail = true;">
-                <strong>PROFESSIONAL</strong> GROWTH SYNERGY!
-              </q-card>
-              <q-card class="flex flex-center row text-wrap buzzword" @click="activeExplanation = 3; showDetail = true;">
+              <q-card class="flex flex-center row text-wrap buzzword" @click="activeExplanation = 0; showDetail = true;">
                 <strong>ITEMIZED</strong> REWARD STRUCTURE!
               </q-card>
-              <q-card class="flex flex-center row text-wrap buzzword" @click="activeExplanation = 4; showDetail = true;">
+              <q-card class="flex flex-center row text-wrap buzzword" @click="activeExplanation = 1; showDetail = true;">
                 <strong>INTEGRATION</strong> AND ACQUISITION!
+              </q-card>
+              <q-card class="flex flex-center row text-wrap buzzword" @click="activeExplanation = 2; showDetail = true;">
+                <span><strong>CATEGORIZING</strong> PIPE-LINE!</span>
+              </q-card>
+              <q-card class="flex flex-center row text-wrap buzzword" clickable @click="activeExplanation = 3; showDetail = true;">
+                <strong>INVESTMENT</strong> OPPORTUNITIES!
+              </q-card>
+              <q-card class="flex flex-center row text-wrap buzzword" @click="activeExplanation = 4; showDetail = true;">
+                <strong>PROFESSIONAL</strong> GROWTH SYNERGY!
               </q-card>
             </q-card-section>
           </q-card-section>
@@ -111,28 +111,28 @@ export default {
       showDetail: ref(false),
       explanations: [
         {
-          name: 'Invest',
-          description: 'Effect! When triggered, it stores an investment! Best compared to Invoke. Fully flavorful text to follow!',
+          name: 'I T E M',
+          description: 'With the recent additions of Spell Schools, we here at Ravenholdt Incorporated wanted to take a moment to remind everyone of their favorite classification that they didn’t even know they were using! Item spells are any specific food, drink, tool, pack, book, scroll, idol, explosive, or or even deck that fall within our specific criteria. It’s like we always say, “If it’s the item doing the magic and not you, then give the item the credit”',
           exampleCard: 'https://i.imgur.com/5CogUba.png'
         },
         {
-          name: 'Interest',
-          description: 'Talks about the cards that have continuous effects, that happen at the end of your turn.',
+          name: 'P I R A T E S',
+          description: 'Our coworkers are like family to us, and what better way to make a bigger family than with a wedding? As such, the higher ups have all banned together, to combine the tribes, so to say! Going overseas, we’ve worked with our new Pirate siblings to reach all kinds of new heights, and accrue all kinds of new products. From our family to yours, we hope you can let us into your hearts, and if not, we’ll find our own way in.',
           exampleCard: 'https://i.imgur.com/5CogUba.png'
         },
         {
-          name: 'Profession',
-          description: 'Consumes all Investments when played, and does something per one consumed.',
+          name: 'M E R G E R',
+          description: 'With the new influx of Items, comes an opportunity of sales. After all, products come in all shapes and sizes, and anything can be sold to anyone, if they need it. That’s why, many of our legendary employees have taken on the task of organizing specific spells and classifications therein, and finding a market for them. Itemization and orginization is a key component, in a successful multiproduct firm.',
           exampleCard: 'https://i.imgur.com/5CogUba.png'
         },
         {
-          name: 'Item',
-          description: 'Classification for Spells! Any Parts, Scrolls, Tomes, Wands, Relics, Fruit, or Potions are classified as Items! Basic explanation; if it\'s a Thing and not doing something WITH the thing, it\'s an Item.',
+          name: 'I N V E S T',
+          description: 'Say goodbye, Galakrond, and move over, C’thun, because there’s a NEW slow and steady build-up lord in town, and his name’s CAPITALISM! Our employees work hard for you, to make sure you always get the most for your mana. That’s why, certain effects will automatically Invest for you, increasing your total Investments. How you use these liquid assets are entirely up to you to decide, with our variable payout system, referenced in the next blurb!',
           exampleCard: 'https://i.imgur.com/5CogUba.png'
         },
         {
-          name: 'Merger',
-          description: 'Talks about the cards that mix Pirates and a type, and then the cards that mix Item and a type.',
+          name: 'P R O F E S S I O N S',
+          description: 'Whew! Synergizing sure is hard work. But look at all that capital you’ve earned! By playing a Profession card, you can turn however many Investments you have into a plethora of powerful effects. You can do this more than once, but you have to gather new Investments each time. You’ve already spent your cash on the first one, after all! But best of all, these Professions are available to anyone, regardless of class! That’s right, Neutral Spells!',
           exampleCard: 'https://i.imgur.com/5CogUba.png'
         }
       ]
