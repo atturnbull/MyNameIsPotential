@@ -6,8 +6,29 @@
     z-index: 1;
 }
 
+
+.pop-text {
+  font-size: 20px
+}
+
+.bighover {
+    transform: scale(1.2);
+    transition-duration: 0.75s;
+    z-index: 2;
+}
+
+.bighover:hover {
+    transform: scale(2.5);
+    transition-duration: 0.75s;
+    z-index: 3; 
+}
+
 .card:hover {
     transform: scale(1.2);
     transition-duration: 0.5s;
     z-index: 2;
+}
+
+.card-background {
+    background-color: rgb(248, 206, 151);
 }

@@ -2,27 +2,71 @@
     "Warrior" : [
         {
             "title": "Aedam, Knight-Shifter",
-            "imageName": "aedam.png",
+            "imageUrl": "https://cdn.discordapp.com/attachments/827237597348495380/855342949440421908/9ef96d48.png",
             "power": 4,
             "health": 3,
             "detailText": "Draw a Fatigue Card. Deal its damage to all other minions.",
             "triggers": ["Battlecry", "Deathrattle"],
-            "flavorText": "Howdy, y'all."
+            "flavorText": "Howdy, y'all.",
+            "cost": 3,
+            "rarity": "Legendary",
+            "type": "Minion"
         },
         {
-            "title": "titlegoesHere",
-            "imageName": "nameOfTheFile.whatever",
-            "power": 9001,
-            "health": 8,
+            "title": "Aggressive Advertising",
+            "imageUrl": "https://cdn.discordapp.com/attachments/827237597348495380/860334565855985674/c_agroadvert.png",
+            "power": null,
+            "health": null,
+            "detailText": "Give your minions <b>Overkill</b> draw a card.",
+            "triggers": ["Overkill"],
+            "flavorText": "Anything. Or leave it empty (just the quotes)",
+            "cost": 3
+        },
+        {
+            "title": "Overclocking Automaton",
+            "imageUrl": "https://cdn.discordapp.com/attachments/827237597348495380/860334569604775946/c_overclock.png",
+            "power": 5,
+            "health": 5,
+            "detailText": "Draw a Fatigue card.",
+            "triggers": ["Invest", "Battlecry", "Deathrattle", "etc"],
+            "flavorText": "Anything. Or leave it empty (just the quotes)",
+            "cost": 4
+        },
+        {
+            "title": "Punch In",
+            "imageUrl": "https://cdn.discordapp.com/attachments/827237597348495380/860334573753073674/c_punchin.png",
+            "power": null,
+            "health": null,
             "detailText": "I do stuff",
             "triggers": ["Invest", "Battlecry", "Deathrattle", "etc"],
-            "flavorText": "Anything. Or leave it empty (just the quotes)"
+            "flavorText": "Anything. Or leave it empty (just the quotes)",
+            "cost":1
+        },
+        {
+            "title": "Board Meeting",
+            "imageUrl": "https://cdn.discordapp.com/attachments/827237597348495380/860334576030711808/e_boardmeeting.png",
+            "power": null,
+            "health": null,
+            "detailText": "Summon 3 random Pirates.",
+            "triggers": [],
+            "flavorText": "Anything. Or leave it empty (just the quotes)",
+            "cost":6
+        },
+        {
+            "title": "The Bottom Line",
+            "imageUrl": "https://cdn.discordapp.com/attachments/827237597348495380/860334579960381460/e_the_bottom_line.png",
+            "power": 0,
+            "health": 4,
+            "detailText": "Draw a Fatigue Card. Gain Attack equal to its damage.",
+            "cost":5,
+            "flavorText": "something",
+            "triggers": ["Battlecry"]
         }
     ],
     "Mage" : [
         {
             "title": "titlegoesHere",
-            "imageName": "nameOfTheFile.whatever",
+            "imageUrl": "https://i.imgur.com/5CogUba.png",
             "power": 9001,
             "health": 8,
             "detailText": "I do stuff",

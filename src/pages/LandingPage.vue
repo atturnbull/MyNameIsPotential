@@ -42,32 +42,6 @@
       />
     </q-dialog>
     <q-card class="col-1">
-          <q-carousel
-            arrows
-            animated
-            autoplay="7000"
-            v-model="slide"
-            height="400px"
-          >
-            <q-carousel-slide name="first" style="background-size: {{$q.screen.width}};" img-src="https://www.pardot.com/wp-content/uploads/2020/09/do-not-use-1.jpg">
-              <div class="absolute-bottom custom-caption">
-                <div class="text-h2 text-white">"We put the pirate in Corpirate."</div>
-                <div class="text-subtitle1 text-white">-J.D. Blackfoot</div>
-              </div>
-            </q-carousel-slide>
-            <q-carousel-slide name="second" img-src="https://cdn.quasar.dev/img/parallax1.jpg">
-              <div class="absolute-bottom custom-caption">
-                <div class="text-h2">"This is a placeholder"</div>
-                <div class="text-subtitle1">-Aedam Edinson</div>
-              </div>
-            </q-carousel-slide>
-            <q-carousel-slide name="third" img-src="https://cdn.quasar.dev/img/parallax2.jpg">
-              <div class="absolute-bottom custom-caption">
-                <div class="text-h2">"What's a placeholder"</div>
-                <div class="text-subtitle1">-Thóra Lindborg</div>
-              </div>
-            </q-carousel-slide>
-          </q-carousel>
           <q-card-section class="flex flex-between column col-12 text-center">
             <div class="text-italic text-bold pop-text">All new buzzwords!</div>
             <q-card-section class="flex flex-center row">
@@ -106,14 +80,13 @@ export default {
   setup () {
     return {
       decks: DeckData,
-      slide: ref('first'),
       activeExplanation: ref(0),
       showDetail: ref(false),
       explanations: [
         {
           name: 'I T E M',
           description: 'With the recent additions of Spell Schools, we here at Ravenholdt Incorporated wanted to take a moment to remind everyone of their favorite classification that they didn’t even know they were using! Item spells are any specific food, drink, tool, pack, book, scroll, idol, explosive, or or even deck that fall within our specific criteria. It’s like we always say, “If it’s the item doing the magic and not you, then give the item the credit”',
-          exampleCard: 'https://i.imgur.com/5CogUba.png'
+          exampleCard: 'https://cdn.discordapp.com/attachments/827237597348495380/860333619917619201/cards_bcd2fb90.png'
         },
         {
           name: 'P I R A T E S',
@@ -133,7 +106,7 @@ export default {
         {
           name: 'P R O F E S S I O N S',
           description: 'Whew! Synergizing sure is hard work. But look at all that capital you’ve earned! By playing a Profession card, you can turn however many Investments you have into a plethora of powerful effects. You can do this more than once, but you have to gather new Investments each time. You’ve already spent your cash on the first one, after all! But best of all, these Professions are available to anyone, regardless of class! That’s right, Neutral Spells!',
-          exampleCard: 'https://i.imgur.com/5CogUba.png'
+          exampleCard: 'https://i.imgur.com/3OWbNfEh.jpg'
         }
       ]
     }
@@ -171,9 +144,6 @@ export default {
 .big-explain-name
   font-size: 32px
 
-.pop-text
-  font-size: 20px
-
 .buzzword
   width: 175px
   height: 113px
@@ -193,7 +163,7 @@ export default {
   color: white
 
 .buzzword:hover
-  transform: scale(1.5)
+  transform: scale(1.2)
   transition-duration: 0.5s
   z-index: 2
 
