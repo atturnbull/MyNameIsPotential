@@ -2,7 +2,7 @@
     "Warrior" : [
         {
             "title": "Aedam, Knight-Shifter",
-            "imageUrl": "https://cdn.discordapp.com/attachments/827237597348495380/855342949440421908/9ef96d48.png",
+            "imageUrl": "assets/decks/warrior/aedamKnightShifter.png",
             "power": 4,
             "health": 3,
             "detailText": "Battlecry & Deathrattle: Draw a Fatigue Card. Deal its damage to all other minions.",
@@ -14,7 +14,7 @@
         },
         {
             "title": "Aggressive Advertising",
-            "imageUrl": "https://cdn.discordapp.com/attachments/827237597348495380/860334565855985674/c_agroadvert.png",
+            "imageUrl": "assets/decks/warrior/aggressiveAdvertizing.png/",
             "power": null,
             "health": null,
             "detailText": "Give your minions Overkill: Draw a card.",
@@ -26,7 +26,7 @@
         },
         {
             "title": "Overclocking Automaton",
-            "imageUrl": "https://cdn.discordapp.com/attachments/827237597348495380/860334569604775946/c_overclock.png",
+            "imageUrl": "assets/decks/warrior/overclockingAutomaton.png",
             "power": 5,
             "health": 5,
             "detailText": "Battlecry: Draw a Fatigue card.",
@@ -38,7 +38,7 @@
         },
         {
             "title": "Punch In",
-            "imageUrl": "https://cdn.discordapp.com/attachments/827237597348495380/860334573753073674/c_punchin.png",
+            "imageUrl": "assets/decks/warrior/punchIn.png",
             "power": null,
             "health": null,
             "detailText": "Draw a Fatigue card. Invest twice.",
@@ -50,7 +50,7 @@
         },
         {
             "title": "Board Meeting",
-            "imageUrl": "https://cdn.discordapp.com/attachments/827237597348495380/860334576030711808/e_boardmeeting.png",
+            "imageUrl": "assets/decks/warrior/boardMeeting.png",
             "power": null,
             "health": null,
             "detailText": "Summon 3 random Pirates.",
@@ -62,7 +62,7 @@
         },
         {
             "title": "The Bottom Line",
-            "imageUrl": "https://cdn.discordapp.com/attachments/827237597348495380/860334579960381460/e_the_bottom_line.png",
+            "imageUrl": "assets/decks/warrior/theBottomLine.png",
             "power": 0,
             "health": 4,
             "detailText": "Battlecry: Draw a Fatigue Card. Gain Attack equal to its damage.",
@@ -74,7 +74,7 @@
         },
         {
             "title": "Redirector Gryphos",
-            "imageUrl": "https://imgur.com/G1OKYXC",
+            "imageUrl": "assets/decks/warrior/gryphos.png",
             "power": 5,
             "health": 6,
             "detailText": "Start of Game: If your deck has at least 15 minions, all Pirates are also Mechs, and vice versa",
@@ -86,7 +86,7 @@
         },
         {
             "title": "Crunch",
-            "imageUrl": "https://imgur.com/uiQSPTq",
+            "imageUrl": "assets/decks/warrior/crunch.png",
             "power": null,
             "health": null,
             "detailText": "Draw a Fatigue Card. Deal its damage to a target minion.",
@@ -98,7 +98,7 @@
         },
         {
             "title": "Anger Manager",
-            "imageUrl": "https://imgur.com/xAdMnes",
+            "imageUrl": "assets/decks/warrior/angerManager.png",
             "power": 3,
             "health": 3,
             "detailText": "At the end of your turn, if you've dealt at least 16 damage, Invest three times.",
@@ -110,7 +110,7 @@
         },
         {
             "title": "Industrial Intern",
-            "imageUrl": "https://imgur.com/WZ8URkF",
+            "imageUrl": "assets/decks/warrior/industrialIntern.png",
             "power": 1,
             "health": 1,
             "detailText": "Spellburst: Deal 2 damage randomly split among all other characters. If this was activated with an Item spell, refresh the Spellburst.",
@@ -122,7 +122,7 @@
         },
         {
             "title": "Target Demographic",
-            "imageUrl": "https://imgur.com/jrBRSXN",
+            "imageUrl": "assets/decks/warrior/targetDemographic",
             "power": null,
             "health": null,
             "detailText": "Target an enemy minion. Launch a random minion from your deck to attack it.",
@@ -136,7 +136,7 @@
     "Mage" : [
         {
             "title": "Expense Reporter",
-            "imageUrl": "https://imgur.com/rQ2NCHW",
+            "imageUrl": "assets/decks/mage/expenseReporter.png",
             "power": 3,
             "health": 6,
             "detailText": "At the end of your turn, Invest.",
@@ -148,7 +148,7 @@
         },
         {
             "title": "Lady Ravenwood",
-            "imageUrl": "https://imgur.com/7BONRjl",
+            "imageUrl": "assets/decks/mage/ladyRavenwood.png",
             "power": 5,
             "health": 4,
             "detailText": "Whenever a friendly minion dies while this is in your hand, gain +1 Spell Damage.",
@@ -160,7 +160,7 @@
         },       
         {
             "title": "Staff Manager",
-            "imageUrl": "https://imgur.com/Yy9J93y",
+            "imageUrl": "assets/decks/mage/staffManager.png",
             "power": 3,
             "health": 3,
             "detailText": "At the end of your turn, if your hero attacked with a weapon, Invest three times.",
@@ -172,7 +172,7 @@
         },        
         {
             "title": "Tele-Marketer",
-            "imageUrl": "https://imgur.com/6VTQdoc",
+            "imageUrl": "assets/decks/mage/teleMarketer.png",
             "power": 3,
             "health": 3,
             "detailText": "Inspire Add a random minion to your hand. It costs (3) less.",
@@ -184,7 +184,7 @@
         },        
         {
             "title": "Frozen Assets",
-            "imageUrl": "https://imgur.com/asJoXZ3",
+            "imageUrl": "assets/decks/mage/frozenAssets.png",
             "power": null,
             "health": null,
             "detailText": "Freeze all enemeies. When you draw this, Freeze a random enemy.",
@@ -195,7 +195,7 @@
             "type": "Spell, Item"
         },        {
             "title": "Store Credit",
-            "imageUrl": "https://imgur.com/DuOXBNe",
+            "imageUrl": "assets/decks/mage/storeCredit.png",
             "power": null,
             "health": null,
             "detailText": "Secret: When your opponent plays a spell, add a random Mage spell with the same cost to your hand.",
@@ -207,7 +207,7 @@
         },        
         {
             "title": "Recount",
-            "imageUrl": "https://imgur.com/X5h6xDW",
+            "imageUrl": "assets/decks/mage/recount.png",
             "power": null,
             "health": null,
             "detailText": "Go back a turn.",
@@ -219,7 +219,7 @@
         },        
         {
             "title": "Time Off",
-            "imageUrl": "https://imgur.com/qlmbtFn",
+            "imageUrl": "assets/decks/mage/timeOff.png",
             "power": null,
             "health": null,
             "detailText": "End your turn. You and your opponent skip a turn.",
@@ -231,7 +231,7 @@
         },        
         {
             "title": "Gershik, Cold Caller",
-            "imageUrl": "https://imgur.com/Rq4rC0j",
+            "imageUrl": "assets/decks/mage/gershikColdCaller.png",
             "power": 3,
             "health": 6,
             "detailText": "Start of Game: If your deck has 15 or more spells, all Item spells are also Frost spells, and vice versa.",
@@ -243,7 +243,7 @@
         },        
         {
             "title": "Illusory Intern",
-            "imageUrl": "https://imgur.com/HtFVFgo",
+            "imageUrl": "assets/decks/mage/illusoryIntern.png",
             "power": 1,
             "health": 1,
             "detailText": "Spellburst: Summon a 0/2 Minion with Taunt. If this was activated with an Item spell, refresh the Spellburst.",
@@ -255,7 +255,7 @@
         },        
         {
             "title": "Proof of Purchase",
-            "imageUrl": "https://imgur.com/i3uYQ3G",
+            "imageUrl": "assets/decks/mage/proofOfPurchase.png",
             "power": 1,
             "health": 4,
             "detailText": "At the end of your turn, for each Item  spell cast, deal 1 damage to a random enemy character. Lose 1 Durabillity.",
@@ -427,7 +427,7 @@
     "Rogue" : [
         {
             "title": "Book Cooker",
-            "imageUrl": "https://imgur.com/56L0rPD",
+            "imageUrl": "assets/decks/rogue/bookCooker.png",
             "power": 4,
             "health": 3,
             "detailText": "If you're holding a Dragon other than this one, this minion costs (2) less.",
@@ -439,7 +439,7 @@
         },
         {
             "title": "Budget Cut",
-            "imageUrl": "https://imgur.com/nmfEA4g",
+            "imageUrl": "assets/decks/rogue/budgetCut.png",
             "power": null,
             "health": null,
             "detailText": "Deal 3 damage. Overkill: The next spell you cast costs (2) less.",
@@ -451,7 +451,7 @@
         },
         {
             "title": "Ill-Gotten Gains",
-            "imageUrl": "https://imgur.com/ecwS8Df",
+            "imageUrl": "assets/decks/rogue/illGottenGains.png",
             "power": null,
             "health": null,
             "detailText": "At the end of your turn for 3 turns, add a Coin to your hand.",
@@ -463,7 +463,7 @@
         },
         {
             "title": "Price Gouger",
-            "imageUrl": "https://imgur.com/JOkMNgG",
+            "imageUrl": "assets/decks/rogue/priceGouger.png",
             "power": 3,
             "health": 3,
             "detailText": "Combo: The first card your opponent plays next turn costs (3) more.",
@@ -475,7 +475,7 @@
         },
         {
             "title": "Embezzle",
-            "imageUrl": "https://imgur.com/Yu1Ku1x",
+            "imageUrl": "assets/decks/rogue/embezzle.png",
             "power": null,
             "health": null,
             "detailText": "Take a Class Card from your opponent's deck. If it doesn't have any, take 2 Neutral Cards.",
@@ -487,7 +487,7 @@
         },
         {
             "title": "Gux, Murdervational Speaker",
-            "imageUrl": "https://imgur.com/jtnp6Yi",
+            "imageUrl": "assets/decks/rogue/gux.png",
             "power": 6,
             "health": 6,
             "detailText": "All other friendly minions with Stealth also have Immunity.",
@@ -499,7 +499,7 @@
         },
         {
             "title": "Evrithyngos, Wholesailor",
-            "imageUrl": "https://imgur.com/FtwwSVj",
+            "imageUrl": "assets/decks/rogue/evrithyngosWholesailor.png",
             "power": 6,
             "health": 6,
             "detailText": "Start of Game: If your deck has at least 15 minions, all Pirates are also Dragons, and vice versa.",
@@ -511,7 +511,7 @@
         },
         {
             "title": "Cut-Throat Negotiatior",
-            "imageUrl": "https://imgur.com/2q39mB0",
+            "imageUrl": "assets/decks/rogue/cutThroatNegotiator.png",
             "power": 1,
             "health": 3,
             "detailText": "Stealth. Whenever a minion dies, gain +1 Attack.",
@@ -523,7 +523,7 @@
         },
         {
             "title": "Fiscal Manager",
-            "imageUrl": "https://imgur.com/AQvFRkC",
+            "imageUrl": "assets/decks/rogue/fiscalManager.png",
             "power": 3,
             "health": 3,
             "detailText": "At the end of your turn, if you've saved at least (5) from discounted cards this turn, Invest three times.",
@@ -535,7 +535,7 @@
         },
         {
             "title": "Trickle-Down Dagger",
-            "imageUrl": "https://imgur.com/h2o6rER",
+            "imageUrl": "assets/decks/rogue/fiscalManager.png",
             "power": 2,
             "health": 4,
             "detailText": "Deathrattle: Summon a 2/4 Ooze that retains any buffs placed on this weapon.",
@@ -547,7 +547,7 @@
         },
         {
             "title": "Ooze",
-            "imageUrl": "https://imgur.com/3kDEnqP",
+            "imageUrl": "assets/decks/rogue/ooze.png",
             "power": 2,
             "health": 4,
             "detailText": "",
@@ -559,7 +559,7 @@
         },
         {
             "title": "Outbid",
-            "imageUrl": "https://imgur.com/ONhRXfW",
+            "imageUrl": "assets/decks/rogue/outbid.png",
             "power": null,
             "health": null,
             "detailText": "Secret: When your opponent casts a spell, Counter it, and give them a coin.",
@@ -573,7 +573,7 @@
     "Hunter" : [        
         {
             "title": "Goblin Auto-Miner",
-            "imageUrl": "https://imgur.com/xG1z1YJ",
+            "imageUrl": "assets/decks/hunter/goblingAutoMiner.png",
             "power": 3,
             "health": 2,
             "detailText": "Whenever a friendly Secret is revealed, Invest.",
@@ -585,7 +585,7 @@
         },
         {
             "title": "Code Monkey",
-            "imageUrl": "https://imgur.com/0z5MJRg",
+            "imageUrl": "assets/decks/hunter/codeMonkey.png",
             "power": 1,
             "health": 1,
             "detailText": "Battlecry: Look at the top 3 cards of your deck. Draw one, and discard the others.",
@@ -597,7 +597,7 @@
         },
         {
             "title": "Pet Project",
-            "imageUrl": "https://imgur.com/7Faj7AP",
+            "imageUrl": "assets/decks/hunter/petProject.png",
             "power": null,
             "health": null,
             "detailText": "Each player summons a 3/4 Beast with Rush",
@@ -609,7 +609,7 @@
         },
         {
             "title": "Test Pig",
-            "imageUrl": "https://imgur.com/EqJxMcr",
+            "imageUrl": "assets/decks/hunter/testPig.png",
             "power": 3,
             "health": 4,
             "detailText": "Rush",
@@ -621,7 +621,7 @@
         },
         {
             "title": "Installation Wizard",
-            "imageUrl": "https://imgur.com/EZmDQji",
+            "imageUrl": "assets/decks/hunter/installationWizard.png",
             "power": 3,
             "health": 3,
             "detailText": "Battlecry: Gain Spell Power +1 for each friendly Secret in play.",
@@ -633,7 +633,7 @@
         },
         {
             "title": "Hard Reset",
-            "imageUrl": "https://imgur.com/Oy9FoTX",
+            "imageUrl": "assets/decks/hunter/hardReset.png",
             "power": null,
             "health": null,
             "detailText": "Destroy all Minions. Then, give it a second... Randomly Adapt all Minions.",
@@ -645,7 +645,7 @@
         },
         {
             "title": "Tat, Ecosystem Admin",
-            "imageUrl": "https://imgur.com/1i0S5Yz",
+            "imageUrl": "assets/decks/hunter/tatEcosystemAdmin.png",
             "power": 4,
             "health": 5,
             "detailText": "Battlecry: Draw a card for each friendly Secret revealed this game.",
@@ -657,7 +657,7 @@
         },
         {
             "title": "The Wolf of Whall's Creek",
-            "imageUrl": "https://imgur.com/pDWyhPB",
+            "imageUrl": "assets/decks/hunter/wolfOfWhallsCreek.png",
             "power": 5,
             "health": 1,
             "detailText": "Start of Game: If your deck has at least 15 minions, all Pirates are also Beasts, and vice versa.",
@@ -669,7 +669,7 @@
         },
         {
             "title": "Bug Tester",
-            "imageUrl": "https://imgur.com/Jn7hfgD",
+            "imageUrl": "assets/decks/hunter/bugTester.png",
             "power": 4,
             "health": 6,
             "detailText": "Battlecry, Spellburst, Overkill, Frenzy, & Deathrattle: Summon a 1/1 Bug.",
@@ -681,7 +681,7 @@
         },
         {
             "title": "Bug",
-            "imageUrl": "https://imgur.com/rFJsJam",
+            "imageUrl": "assets/decks/hunter/bug.png",
             "power": 1,
             "health": 1,
             "detailText": "",
@@ -693,7 +693,7 @@
         },
         {
             "title": "Soft Launch",
-            "imageUrl": "https://imgur.com/Kbszy7r",
+            "imageUrl": "assets/decks/hunter/softLaunch.png",
             "power": null,
             "health": null,
             "detailText": "Secret: Deal 4 damage to the opponent's Hero in 3 turns.",
@@ -705,7 +705,7 @@
         },
         {
             "title": "Task Manager",
-            "imageUrl": "https://imgur.com/41VnKzB",
+            "imageUrl": "assets/decks/hunter/taskManager.png",
             "power": 3,
             "health": 3,
             "detailText": "At the end of your turn, if your hand is empty, Invest three times.",
@@ -717,7 +717,7 @@
         },
         {
             "title": "Data Privateer",
-            "imageUrl": "https://imgur.com/2ukUj21",
+            "imageUrl": "assets/decks/hunter/dataPrivateer.png",
             "power": 5,
             "health": 3,
             "detailText": "Deathrattle: If there are cards in your deck that didn't start there, draw 2 of them.",
@@ -731,7 +731,7 @@
     "Druid" : [
         {
             "title": "Stalk Options",
-            "imageUrl": "https://imgur.com/AS7SmHs",
+            "imageUrl": "assets/decks/druid/stalkOptions.png",
             "power": null,
             "health": null,
             "detailText": "Choose One: Gain 2 Empty Mana Crystals; or Gain 5 Temporary Mana Crystals.",
@@ -743,7 +743,7 @@
         },
         {
             "title": "BUY! BUY! BUY!",
-            "imageUrl": "https://imgur.com/e7tJJuQ",
+            "imageUrl": "assets/decks/druid/buyBuyBuy.png",
             "power": null,
             "health": null,
             "detailText": "Gain 2 Empty Mana Crystals",
@@ -755,7 +755,7 @@
         },
         {
             "title": "SELL! SELL! SELL!",
-            "imageUrl": "https://imgur.com/grWlOTt",
+            "imageUrl": "assets/decks/druid/sellSellSell.png",
             "power": null,
             "health": null,
             "detailText": "Gain 5 Temporary Mana Crystals",
@@ -767,7 +767,7 @@
         },
         {
             "title": "Druid of the Market",
-            "imageUrl": "https://imgur.com/ETOGpeQ",
+            "imageUrl": "assets/decks/druid/druidOfTheMarket.png",
             "power": 2,
             "health": 2,
             "detailText": "Choose One - Transform into a 5/3 with Overkill: Invest twice; or a 3/5 with Frenzy: Invest twice.",
@@ -779,7 +779,7 @@
         },
         {
             "title": "Bear Marketeer",
-            "imageUrl": "https://imgur.com/sppiNUD",
+            "imageUrl": "assets/decks/druid/bearMarketeer.png",
             "power": 3,
             "health": 5,
             "detailText": "Frenzy: Invest twice.",
@@ -791,7 +791,7 @@
         },
         {
             "title": "Bull Marketeer",
-            "imageUrl": "https://imgur.com/cvh7IlI",
+            "imageUrl": "assets/decks/druid/bullMarketeer.png",
             "power": 5,
             "health": 3,
             "detailText": "Overkill: Invest twice.",
@@ -803,7 +803,7 @@
         },
         {
             "title": "Mixed Marketeer",
-            "imageUrl": "https://imgur.com/gAaFLSt",
+            "imageUrl": "assets/decks/druid/mixedMarketeer.png",
             "power": 5,
             "health": 5,
             "detailText": "Overkill: Invest twice. Frenzy: Invest twice.",
@@ -815,7 +815,7 @@
         },
         {
             "title": "Appreciated Growth",
-            "imageUrl": "https://imgur.com/cjwwWY2",
+            "imageUrl": "assets/decks/druid/appreciatedGrowth.png",
             "power": null,
             "health": null,
             "detailText": "At the end of your turn for 3 turns, give all friendly minions +1/+1",
@@ -827,7 +827,7 @@
         },
         {
             "title": "Branching Out",
-            "imageUrl": "https://imgur.com/sKYdnnO",
+            "imageUrl": "assets/decks/druid/branchingOut.png",
             "power": null,
             "health": null,
             "detailText": "Summon four 2/2 Treeants. If the last spell you played was an Item, give them Rush.",
@@ -839,7 +839,7 @@
         },
         {
             "title": "Gwin, Record Keeper",
-            "imageUrl": "https://imgur.com/OiFTBDi",
+            "imageUrl": "assets/decks/druid/gwinRecordKeeper.png",
             "power": 7,
             "health": 7,
             "detailText": "Battlecry: Regain any Temporary Mana you've gained this game.",
@@ -851,7 +851,7 @@
         },
         {
             "title": "Nysariel, Stalk Broker",
-            "imageUrl": "https://imgur.com/why4MuI",
+            "imageUrl": "assets/decks/druid/nysarielStalkBroker.png",
             "power": 3,
             "health": 3,
             "detailText": "Start of Game: If your deck has at least 15 spells, all Item spells are also Nature spell, and vice versa.",
@@ -863,7 +863,7 @@
         },
         {
             "title": "Branch Manager",
-            "imageUrl": "https://imgur.com/HqHvX7x",
+            "imageUrl": "assets/decks/druid/branchManager.png",
             "power": 3,
             "health": 3,
             "detailText": "At the end of your turn, if you control at least 4 Treants, Invest three times.",
@@ -875,7 +875,7 @@
         },
         {
             "title": "Hedge Fund",
-            "imageUrl": "https://imgur.com/zTP1xjv",
+            "imageUrl": "assets/decks/druid/hedgeFund.png",
             "power": null,
             "health": null,
             "detailText": "Draw 2 cards. When you draw this, gain 1 Mana Crystal this turn only/",
@@ -887,7 +887,7 @@
         },
         {
             "title": "Moonlighter",
-            "imageUrl": "https://imgur.com/voCliaj",
+            "imageUrl": "assets/decks/druid/moonlighter.png",
             "power": 2,
             "health": 3,
             "detailText": "Battlecry: Add 2 Moonfires to your hand.",
@@ -899,7 +899,7 @@
         },
         {
             "title": "Nest Egg",
-            "imageUrl": "https://imgur.com/BmKLwfm",
+            "imageUrl": "assets/decks/druid/nestEgg.png",
             "power": 0,
             "health": 5,
             "detailText": "Deathrattle: Gain 2 Mana Crystals.",
@@ -911,7 +911,7 @@
         },
         {
             "title": "Yield Crescent",
-            "imageUrl": "https://imgur.com/40bWuJ5",
+            "imageUrl": "assets/decks/druid/yieldCrescent.png",
             "power": 1,
             "health": 3,
             "detailText": "Spellburst: Gain 6 Armor.",
@@ -925,7 +925,7 @@
     "Paladin" : [
         {
             "title": "Brand",
-            "imageUrl": "https://imgur.com/5CogUba",
+            "imageUrl": "assets/decks/paladin/brand.png",
             "power": null,
             "health": null,
             "detailText": "Deal 2 damage to a minion. If it survives, give it +3 Health and Taunt.",
@@ -937,7 +937,7 @@
         },
         {
             "title": "Promotional Voucher",
-            "imageUrl": "https://imgur.com/Wwkx4N7",
+            "imageUrl": "assets/decks/paladin/promotionalVoucher.png",
             "power": null,
             "health": null,
             "detailText": "Give a minion +1 Attack. Invest.",
@@ -949,7 +949,7 @@
         },
         {
             "title": "Sampling Freebooter",
-            "imageUrl": "https://imgur.com/VY5i9bV",
+            "imageUrl": "assets/decks/paladin/samplingFreebooter.png",
             "power": 2,
             "health": 4,
             "detailText": "Deathrattle: Add a Spare Part and a Banana to your hand.",
@@ -961,7 +961,7 @@
         },
         {
             "title": "Press Kit",
-            "imageUrl": "https://imgur.com/fx0hpfg",
+            "imageUrl": "assets/decks/paladin/pressKit.png",
             "power": 3,
             "health": 3,
             "detailText": "Whenever you play a Holy Spell that costs (1), draw a card.",
@@ -973,7 +973,7 @@
         },
         {
             "title": "Stable Investment",
-            "imageUrl": "https://imgur.com/zj1VRZu",
+            "imageUrl": "assets/decks/paladin/stableInvestment.png",
             "power": null,
             "health": null,
             "detailText": "Secret: Give a random friendly minion +4/+4 and Taunt in 3 turns.",
@@ -985,7 +985,7 @@
         },
         {
             "title": "Influencer Beriandelas",
-            "imageUrl": "https://imgur.com/Oqm6kDu",
+            "imageUrl": "assets/decks/paladin/influencerBeriandelas.png",
             "power": 5,
             "health": 5,
             "detailText": "Battlecry: Replay every 1-Cost spell you've played on enemy minions this game, targeting this minion.",
@@ -997,7 +997,7 @@
         },
         {
             "title": "Hacate, Angel Investor",
-            "imageUrl": "https://imgur.com/OF6nVXK",
+            "imageUrl": "assets/decks/paladin/hacateAngelInvestor.png",
             "power": 6,
             "health": 6,
             "detailText": "Start of Game: If your deck has 15 spells, all Item spells are also Holy spells, and vice versa.",
@@ -1009,7 +1009,7 @@
         },
         {
             "title": "Boilerplate Armor",
-            "imageUrl": "https://imgur.com/dTcQphC",
+            "imageUrl": "assets/decks/paladin/boilerplatArmor.png",
             "power": 2,
             "health": 6,
             "detailText": "Can't attack. This weapon is always active.",
@@ -1021,7 +1021,7 @@
         },
         {
             "title": "Crowd Pleaser",
-            "imageUrl": "https://imgur.com/rR8L9t8",
+            "imageUrl": "assets/decks/paladin/crowdPleaser.png",
             "power": 3,
             "health": 4,
             "detailText": "Anytime you increase an enemy minion's stats, give all friendly minions +1/+1.",
@@ -1033,7 +1033,7 @@
         },
         {
             "title": "Media Manager",
-            "imageUrl": "https://imgur.com/3yX2mUa",
+            "imageUrl": "assets/decks/paladin/mediaManager.png",
             "power": 3,
             "health": 3,
             "detailText": "At the end of your turn, if you've increased an enemy minion's stats, Invest three times.",
@@ -1045,7 +1045,7 @@
         },
         {
             "title": "Intrepid Intern",
-            "imageUrl": "https://imgur.com/qCngCRW",
+            "imageUrl": "assets/decks/paladin/intrepidIntern.png",
             "power": 1,
             "health": 1,
             "detailText": "Spellburst: Give a friendly minion +1/+1. If it was an Item spell, refresh the Spellburst.",
@@ -1059,7 +1059,7 @@
     "Shaman" : [
         {
             "title": "Developing Deepscale",
-            "imageUrl": "https://imgur.com/SntWI1q",
+            "imageUrl": "assets/decks/shaman/developingDeepscale.png",
             "power": 1,
             "health": 3,
             "detailText": "Has +1 Spell Power while you have Overloaded Mana Crystals.",
@@ -1071,7 +1071,7 @@
         },
         {
             "title": "Feedback",
-            "imageUrl": "https://imgur.com/ppvqurk",
+            "imageUrl": "assets/decks/shaman/feedback.png",
             "power": null,
             "health": null,
             "detailText": "Deal 1 damage to a Minion, 3 times. When you draw this, gain +1 Spell Power until the end of the next turn.",
@@ -1083,7 +1083,7 @@
         },
         {
             "title": "Statistical Anomaly",
-            "imageUrl": "https://imgur.com/rNFKvBd",
+            "imageUrl": "assets/decks/shaman/statisticalAnomaly.png",
             "power": 4,
             "health": 4,
             "detailText": "Battlecry: Gain +1/+1 for each Elemental you played last turn.",
@@ -1095,7 +1095,7 @@
         },
         {
             "title": "Benchmark Totem",
-            "imageUrl": "https://imgur.com/zHDsJXu",
+            "imageUrl": "assets/decks/shaman/benchmarkTotem.png",
             "power": 1,
             "health": 2,
             "detailText": "No friendly Totem can have stats that are lower than Benchmark Totem",
@@ -1107,7 +1107,7 @@
         },
         {
             "title": "Groundbreaker",
-            "imageUrl": "https://imgur.com/3ZdswwK",
+            "imageUrl": "assets/decks/shaman/groundbreaker.png",
             "power": 2,
             "health": 2,
             "detailText": "When your hero attacks, if you played an Elemental last turn, this weapon doesn't lose durability.",
@@ -1119,7 +1119,7 @@
         },
         {
             "title": "Elraina, Offshore Accountant",
-            "imageUrl": "https://imgur.com/1qqhTZ4",
+            "imageUrl": "assets/decks/shaman/elrainaOffshoreAccountant.png",
             "power": 4,
             "health": 3,
             "detailText": "Start of Game: If your deck has at least 15 minions, all Pirates are also Elementals, and vice versa.",
@@ -1131,7 +1131,7 @@
         },
         {
             "title": "Loan Shark Grhrmn",
-            "imageUrl": "https://imgur.com/bIg4BTI",
+            "imageUrl": "assets/decks/shaman/loanSharkGrhrmn.png",
             "power": 6,
             "health": 5,
             "detailText": "Your Murlocs cost (0), but Overload you for their original cost.",
@@ -1143,7 +1143,7 @@
         },
         {
             "title": "Focused Grouping",
-            "imageUrl": "https://imgur.com/VSV0h5D",
+            "imageUrl": "assets/decks/shaman/focusedGrouping.png",
             "power": 3,
             "health": 3,
             "detailText": "Overload: (2) Deathrattle: summon 3 1/1 Shards with Rush.",
@@ -1155,7 +1155,7 @@
         },
         {
             "title": "Shard",
-            "imageUrl": "https://imgur.com/YStjgRp",
+            "imageUrl": "assets/decks/shaman/shard.png",
             "power": 1,
             "health": 1,
             "detailText": "Rush",
@@ -1167,7 +1167,7 @@
         },
         {
             "title": "Forecast",
-            "imageUrl": "https://imgur.com/ZzPw66t",
+            "imageUrl": "forecast.png",
             "power": null,
             "health": null,
             "detailText": "At the end of your turn for 3 turns, restore 6 health randomly split among all friendly characters.",
@@ -1179,7 +1179,7 @@
         },
         {
             "title": "Liquidate",
-            "imageUrl": "https://imgur.com/x13IFt7",
+            "imageUrl": "assets/decks/shaman/liquidate.png",
             "power": null,
             "health": null,
             "detailText": "Transform a minion into a 1/1 Elemental. Deal its original Mana cost to the minions next to it.",
@@ -1191,7 +1191,7 @@
         },
         {
             "title": "Liquidated Employee",
-            "imageUrl": "https://imgur.com/w09hpD9",
+            "imageUrl": "assets/decks/shaman/liquidatedEmployee.png",
             "power": 1,
             "health": 1,
             "detailText": "",
@@ -1203,7 +1203,7 @@
         },
         {
             "title": "Regional Manager",
-            "imageUrl": "https://imgur.com/LlOh3Ir",
+            "imageUrl": "assets/decks/shaman/regionalManager.png",
             "power": 3,
             "health": 3,
             "detailText": "At the end of your turn, if you're Overloaded for at least (5), Invest three times.",
@@ -1217,7 +1217,7 @@
     "Demon Hunter" : [
         {
             "title": "Due Process",
-            "imageUrl": "https://imgur.com/uJUA1oC",
+            "imageUrl": "assets/decks/demon-hunter/dueProcess.png",
             "power": null,
             "health": null,
             "detailText": "At the end of your turn for 3 turns, shuffle your hand.",
@@ -1229,7 +1229,7 @@
         },
         {
             "title": "Grievance",
-            "imageUrl": "https://imgur.com/ao2cUJN",
+            "imageUrl": "assets/decks/demon-hunter/grievance.png",
             "power": 3,
             "health": 2,
             "detailText": "Outcast: Gain +2 Durability.",
@@ -1241,7 +1241,7 @@
         },
         {
             "title": "Pit Ombudsman",
-            "imageUrl": "https://imgur.com/OYoFZmp",
+            "imageUrl": "assets/decks/demon-hunter/pitOmbudsman.png",
             "power": 6,
             "health": 6,
             "detailText": "Your Demons have +1/+1",
@@ -1253,7 +1253,7 @@
         },
         {
             "title": "Boss Fight",
-            "imageUrl": "https://imgur.com/lw2yJz7",
+            "imageUrl": "assets/decks/demon-hunter/bossFight.png",
             "power": null,
             "health": null,
             "detailText": "Target a minion. Summon a random minion that can kill it, and give it Rush.",
@@ -1265,7 +1265,7 @@
         },
         {
             "title": "Coilskar Steward",
-            "imageUrl": "https://imgur.com/ZEHLyCF",
+            "imageUrl": "assets/decks/demon-hunter/coilskarSteward.png",
             "power": 5,
             "health": 4,
             "detailText": "Battlecry: Give your weapon +2 Attack. Outcast: And Durability.",
@@ -1277,7 +1277,7 @@
         },
         {
             "title": "Grob, the Disobeiant",
-            "imageUrl": "https://imgur.com/FUKXr8G",
+            "imageUrl": "assets/decks/demon-hunter/grob.png",
             "power": null,
             "health": 6,
             "detailText": "Battlecry: Throw your weapon at a target. Equip the Pick-It Sign.",
@@ -1289,7 +1289,7 @@
         },
         {
             "title": "NO MORE!",
-            "imageUrl": "https://imgur.com/wWPcOTm",
+            "imageUrl": "assets/decks/demon-hunter/noMore.png",
             "power": null,
             "health": null,
             "detailText": "Hero Power Give a friendly character +1 Attack until the end of the turn.",
@@ -1301,7 +1301,7 @@
         },
         {
             "title": "Pick-It Sign",
-            "imageUrl": "https://imgur.com/GsOuy1a",
+            "imageUrl": "assets/decks/demon-hunter/pickItSign.png",
             "power": 0,
             "health": 3,
             "detailText": "All friendly minions gain this weapon's attack. At the end of your turn, lose 1 Durability.",
@@ -1313,7 +1313,7 @@
         },
         {
             "title": "Jassinn, Delegationist",
-            "imageUrl": "https://imgur.com/m2GObcG",
+            "imageUrl": "assets/decks/demon-hunter/jassinn.png",
             "power": 7,
             "health": 6,
             "detailText": "Start of Game: If your deck has at least 15 minions, all Pirates in your deck are also Demons, and vice versa.",
@@ -1325,7 +1325,7 @@
         },
         {
             "title": "Decisive Strike",
-            "imageUrl": "https://imgur.com/I1vyCRR",
+            "imageUrl": "assets/decks/demon-hunter/decisiveStrike.png",
             "power": null,
             "health": null,
             "detailText": "Give your hero +2 Attack and \"Whenever your hero attacks, Invest\" this turn.",
@@ -1337,7 +1337,7 @@
         },
         {
             "title": "Illidari Intern",
-            "imageUrl": "https://imgur.com/xDGRYNf",
+            "imageUrl": "assets/decks/demon-hunter/illidariIntern.png",
             "power": 1,
             "health": 1,
             "detailText": "Spellburst: Gain +2 Attack. If it was activated with an Item spell, refresh the Spellburst.",
@@ -1349,7 +1349,7 @@
         },
         {
             "title": "Legionary Strawboss",
-            "imageUrl": "https://imgur.com/j0tX3Tn",
+            "imageUrl": "assets/decks/demon-hunter/lgeionaryStrawboss.png",
             "power": 3,
             "health": 7,
             "detailText": "Rush. When this minion attacks an enemy, adjacent minions attack it too.",
@@ -1361,7 +1361,7 @@
         },
         {
             "title": "Risk Manager",
-            "imageUrl": "https://imgur.com/ElTaIen",
+            "imageUrl": "assets/decks/demon-hunter/riskManager.png",
             "power": 3,
             "health": 3,
             "detailText": "At the end of your turn, if at least 6 Minions died, Invest three times.",
@@ -1375,7 +1375,7 @@
     "Warlock" : [
         {
             "title": "Custom Servant",
-            "imageUrl": "https://imgur.com/2AAsGiI",
+            "imageUrl": "assets/decks/warlock/customServant.png",
             "power": 1,
             "health": 1,
             "detailText": "Magnetic. Battlecry: Adapt 3 times.",
@@ -1387,7 +1387,7 @@
         },
         {
             "title": "Return Policy",
-            "imageUrl": "https://imgur.com/hFs0X4B",
+            "imageUrl": "assets/decks/warlock/returnPolicy.png",
             "power": null,
             "health": null,
             "detailText": "Add a copy of the last minion that died to your hand.",
@@ -1399,7 +1399,7 @@
         },
         {
             "title": "Soulless Spokesperson",
-            "imageUrl": "https://imgur.com/TG4qspL",
+            "imageUrl": "assets/decks/warlock/soullessSpokesperson.png",
             "power": 3,
             "health": 6,
             "detailText": "Whenever you Discard a card, Invest",
@@ -1411,7 +1411,7 @@
         },
         {
             "title": "Chain of Command",
-            "imageUrl": "https://imgur.com/ZaZJQxi",
+            "imageUrl": "assets/decks/warlock/chainOfCommand.png",
             "power": 2,
             "health": 5,
             "detailText": "Overkill: Add a copy of the destroyed minion to your hand.",
@@ -1423,7 +1423,7 @@
         },
         {
             "title": "Outsource",
-            "imageUrl": "https://imgur.com/WvPJtBc",
+            "imageUrl": "assets/decks/warlock/outsource.png",
             "power": null,
             "health": null,
             "detailText": "Fill your board and hand with Worthless Imps",
@@ -1435,7 +1435,7 @@
         },
         {
             "title": "Lantana, Loss Leader",
-            "imageUrl": "https://imgur.com/lznOcG0",
+            "imageUrl": "assets/decks/warlock/lantana.png",
             "power": 3,
             "health": 2,
             "detailText": "Start of Game: If your dech has at least 15 spells, all Item spells are also Fel spells, and vice versa.",
@@ -1447,7 +1447,7 @@
         },
         {
             "title": "Churn",
-            "imageUrl": "https://imgur.com/9MQe4x2",
+            "imageUrl": "assets/decks/warlock/churn.png",
             "power": null,
             "health": null,
             "detailText": "Discover an opponent's minion that's been destroyed. Summon it.",
@@ -1459,7 +1459,7 @@
         },
         {
             "title": "Infernal Intern",
-            "imageUrl": "https://imgur.com/AxCAmnr",
+            "imageUrl": "assets/decks/warlock/infernalIntern.png",
             "power": 1,
             "health": 1,
             "detailText": "Spellburst: Summon a copy of this minion. If this was activated with an Item spell, refresh the Spellburst.",
@@ -1471,7 +1471,7 @@
         },
         {
             "title": "Recruitment Manager",
-            "imageUrl": "https://imgur.com/sTG4LjY",
+            "imageUrl": "assets/decks/warlock/recruitmentManager.png",
             "power": 3,
             "health": 3,
             "detailText": "At the end of your turn, if there are at least 10 Minions on the board, Invest three times.",
@@ -1483,7 +1483,7 @@
         },
         {
             "title": "Severance Package",
-            "imageUrl": "https://imgur.com/govH76E",
+            "imageUrl": "assets/decks/warlock/severancePackage.png",
             "power": null,
             "health": null,
             "detailText": "Destroy the top card of your deck. Deal its Mana cost to all enemy minions.",
@@ -1495,7 +1495,7 @@
         },
         {
             "title": "Jilin, Prestige Pricer",
-            "imageUrl": "https://imgur.com/hX5snjm",
+            "imageUrl": "assets/decks/warlock/jilinPrestigePricer.png",
             "power": 2,
             "health": 4,
             "detailText": "After you play an Item spell, give all friendly minions +1/+1",

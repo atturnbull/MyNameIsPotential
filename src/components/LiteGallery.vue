@@ -18,7 +18,6 @@
       <q-card-section class="row justify-around">
         <q-img
           class="no-shadow col-1 bighover"
-          crossorigin="use-credentials"
           fit="scale-down"
           style="height: 200px;"
           loading="lazy"

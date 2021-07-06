@@ -50,7 +50,6 @@
         <q-img
           class="no-shadow col-xs-4 col-sm-2 col-md-1 col-lg bighover q-ma-xl"
           fit="scale-down"
-          crossorigin="use-credentials"
           style="height: 200px;"
           loading="lazy"
           alt="card image"
