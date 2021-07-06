@@ -34,6 +34,7 @@
       </q-card>
       <q-img
         class="no-shadow card"
+        crossorigin="anonymous"
         fit="scale-down"
         style="margin-left: 25px; margin-top: -100px; z-index: 0;"
         loading="lazy"
