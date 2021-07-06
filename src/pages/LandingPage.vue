@@ -42,6 +42,21 @@
       />
     </q-dialog>
     <q-card class="col-1">
+          <q-card-section class="text-center">
+            <p style="font-size: 28px;">
+              WELCOME, TO RAVENHOLDT INCORPORATED!
+            </p>
+
+            <p style="font-size: 18px; font-weight: bold;" >ABOUT US:</p>
+            What started small, as a single family owned mom and pop style hitman’s union has blossomed and grown over the past 3 wars into a full scale organization, several continents wide. Each week, approximately 85% of the Alliance and Horde’s royal and leading class trust us with the important task of killing the other ones that we mentioned. With a fiscal review that we are not at liability to share, at this time, Ravenholdt continues to be the lead employer of wayward adventurers, dedicated assassins, and core-set 7 mana 7/5s with Stealth this side of Pandaria. It’s all part of our unwavering commitment to see this faction conflict through to the end, and to provide opportunities and experiences unlike any other assassination based group, such as the Syndicate, whom we hate.
+            <p />
+            <p style="font-size: 18px; font-weight: bold;">OUR BUSINESS: </p>
+            We here at Ravenholdt Incorporated offer a wide variety of products and services, but beyond that, what we offer is this; Satisfaction. We are willing... No, we are enthusiastic to meet whatever demand you want. Need a war started? Absolutely. Give us a schedule, and we’ll give you a quote. Want a royal disappeared? Without a doubt. Our sleeper cells located inside of every stronghold, fortress, and ziggurat will work tirelessly, to guarantee whatever coup comes, comes with grace. Need a gutter cleared? No job is too small for our astounding work-force. We’ll pull a desk jockey off their resting laurels, and send them out with a toothbrush and a dream. The customer is always right! And if you’re not, then you’re no customer of ours!
+            <p />
+            <p style="font-size: 18px; font-weight: bold;">LOCATIONS: </p>
+            Our central building is located inside the historic Alteric Mountainrange, wherein many of our newly hired begin their journey in the wild and wonderful world that is corporate life. However, we have several locations, all throughout the Eastern Kingdoms, Kalimdor, and as of recently, branches in Kul Tiras and Northrend! If you wish to get into contact with one of our representatives to see about arranging some form of contract, please burn a combination of Maiden’s Anguish, Morrowgrain, and Witchbane wrapped around a log of Star Wood, and allow the smoke to rise to the sky. If you do so, then rejoice! The closest representative will already be on their way to find you.
+
+          </q-card-section>
           <q-card-section class="flex flex-between column col-12 text-center">
             <div class="text-italic text-bold pop-text">All new buzzwords!</div>
             <q-card-section class="flex flex-center row">

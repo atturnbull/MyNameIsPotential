@@ -9,10 +9,10 @@
     expand-icon-class="text-white"
   >
     <q-card class="text-black column text-white card-background">
-      <div class="text-center q-pa-md">
+      <div class="text-center q-pa-md" style="font-size: 20px;">
         <p>{{activeBlurb}}</p>
       </div>
-      <q-card-section v-if="deck.length > 0" class="text-center pop-text">
+      <q-card-section v-if="deck.length > 0" class="text-center pop-text" style="font-weight: bold;">
         Top Performers:
       </q-card-section>
       <q-card-section class="row justify-around">
@@ -20,7 +20,6 @@
           class="no-shadow col-1 bighover"
           fit="scale-down"
           style="height: 200px;"
-          loading="lazy"
           alt="card image"
           :src="item.imageUrl"
           v-for="(item, index) in deck.slice(0, 5)"
