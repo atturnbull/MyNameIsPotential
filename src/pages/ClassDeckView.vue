@@ -2,7 +2,7 @@
   <q-dialog v-model="showDetail" >
     <q-img
       class="no-shadow card"
-      crossorigin="anonymous"
+      crossorigin="use-credentials"
       fit="scale-down"
       style="margin-left: 10px; margin-top: -125px; z-index: 0;"
       loading="lazy"
@@ -50,7 +50,7 @@
         <q-img
           class="no-shadow col-xs-4 col-sm-2 col-md-1 col-lg bighover q-ma-xl"
           fit="scale-down"
-          crossorigin="anonymous"
+          crossorigin="use-credentials"
           style="height: 200px;"
           loading="lazy"
           alt="card image"

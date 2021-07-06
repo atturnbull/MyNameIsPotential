@@ -16,21 +16,21 @@
         height="400px"
      >
         <q-carousel-slide name="first">
-          <q-img crossorigin="anonymous" class="absolute-top" fit="contain" height="400px" src="https://cdn.discordapp.com/attachments/747284270095007776/860409321920528424/Logo-Cropped.png" />
+          <q-img crossorigin="use-credentials" class="absolute-top" fit="contain" height="400px" src="https://cdn.discordapp.com/attachments/747284270095007776/860409321920528424/Logo-Cropped.png" />
           <div class="absolute-bottom custom-caption">
             <div class="text-h2 text-white">"We put the pirate in Corpirate."</div>
             <div class="text-subtitle1 text-white">-J.D. Blackfoot</div>
           </div>
         </q-carousel-slide>
         <q-carousel-slide name="second">
-          <q-img crossorigin="anonymous" class="absolute-top" fit="contain" height="400px" src="https://cdn.discordapp.com/attachments/747284270095007776/860409321920528424/Logo-Cropped.png" />
+          <q-img crossorigin="use-credentials" class="absolute-top" fit="contain" height="400px" src="https://cdn.discordapp.com/attachments/747284270095007776/860409321920528424/Logo-Cropped.png" />
           <div class="absolute-bottom custom-caption">
             <div class="text-h2">"This is a placeholder"</div>
             <div class="text-subtitle1">-Aedam Edinson</div>
           </div>
         </q-carousel-slide>
         <q-carousel-slide name="third">
-         <q-img crossorigin="anonymous" class="absolute-top" fit="contain" height="400px" src="https://cdn.discordapp.com/attachments/747284270095007776/860409321920528424/Logo-Cropped.png" />
+         <q-img crossorigin="use-credentials" class="absolute-top" fit="contain" height="400px" src="https://cdn.discordapp.com/attachments/747284270095007776/860409321920528424/Logo-Cropped.png" />
           <div class="absolute-bottom custom-caption">
             <div class="text-h2">"What's a placeholder"</div>
             <div class="text-subtitle1">-Thóra Lindborg</div>
